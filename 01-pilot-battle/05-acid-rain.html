@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acid Rain</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgba(0, 0, 0, 0.9);
+            width: 100vw;
+            height: 100vh;
+        }
+
+        #header {
+            text-align: center;
+            color: white;
+            margin: 50px auto;
+        }
+
+        #body {
+            background: #0B2429;
+            width: 400px;
+            height: 300px;
+            margin: auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .box {
+            width: 240px;
+            height: 240px;
+            display: flex;
+            justify-content: center;
+            position: relative;
+        }
+
+        .gout {
+            width: 120px;
+            height: 120px;
+            background: #F3AC3C;
+            border-radius: 50% 0 50% 50%;
+            position: absolute;
+        }
+
+        .gt1 {
+            align-self: flex-end;
+            margin-left: -120px;
+            z-index: 3;
+        }
+
+        .gt2 {
+            background: #998235;
+            align-self: center;
+            z-index: 2;
+        }
+
+        .gt3 {
+            transform: rotate(180deg);
+            align-self: flex-start;
+            margin-right: -120px;
+        }
+    </style>
+</head>
+
+<body>
+    <header id="header">
+        <h1>Acid Rain</h1>
+    </header>
+    <main id="body">
+        <div class="box">
+            <div class="gout gt1"></div>
+            <div class="gout gt2"></div>
+            <div class="gout gt3"></div>
+        </div>
+    </main>
+</body>
+
+</html>
