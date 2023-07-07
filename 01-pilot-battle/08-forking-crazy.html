@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forking Crazy</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgba(0, 0, 0, 0.9);
+            width: 100vw;
+            height: 100vh;
+        }
+
+        #header {
+            text-align: center;
+            color: white;
+            margin: 50px auto;
+        }
+
+        #body {
+            background: #6592CF;
+            width: 400px;
+            height: 300px;
+            margin: auto;
+            display: flex;
+            justify-content: center;
+            align-items: flex-end;
+        }
+
+        .container {
+            width: 140px;
+            height: 250px;
+            position: relative;
+        }
+
+        div:not(.container):not(.claw-container) {
+            background: #060F55;
+        }
+
+        .stick {
+            position: absolute;
+            width: 20px;
+            height: 60px;
+            bottom: 0;
+            left: calc(50% - 10px);
+        }
+
+        .body {
+            position: absolute;
+            width: 140px;
+            height: 100px;
+            bottom: 50px;
+            border-radius: 0 0 80px 80px;
+        }
+
+        .claw-container {
+            width: 140px;
+            height: 110px;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .claw {
+            width: 20px;
+            border-radius: 20px 20px 0 0;
+        }
+
+        .claw.reverse {
+            background: #6592CF !important;
+            transform: scaleY(-1);
+        }
+    </style>
+</head>
+
+<body>
+    <header id="header">
+        <h1>Forking Crazy</h1>
+    </header>
+    <main id="body">
+        <div class="container">
+            <div class="stick"></div>
+            <div class="body"></div>
+            <div class="claw-container">
+                <div class="claw"></div>
+                <div class="claw reverse"></div>
+                <div class="claw"></div>
+                <div class="claw reverse"></div>
+                <div class="claw"></div>
+                <div class="claw reverse"></div>
+                <div class="claw"></div>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>

@@ -8,3 +8,4 @@
 #### <a href="https://josimarmg.github.io/css-battle/01-pilot-battle/05-acid-rain.html">05 Acid Rain</a>
 #### [06 Missing Slice](https://josimarmg.github.io/css-battle/01-pilot-battle/06-missing-slice.html)
 #### [07 Leaf Trail](https://josimarmg.github.io/css-battle/01-pilot-battle/07-leafy-trail.html)
+#### [08 Forking Crazy](https://josimarmg.github.io/css-battle/01-pilot-battle/08-forking-crazy.html)
