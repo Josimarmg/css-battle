@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leafy Trail</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgba(0, 0, 0, 0.9);
+            width: 100vw;
+            height: 100vh;
+        }
+
+        #header {
+            text-align: center;
+            color: white;
+            margin: 50px auto;
+        }
+
+        #body {
+            background: #0B2429;
+            width: 400px;
+            height: 300px;
+            margin: auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+        }
+        div {
+            width: 150px;
+            height: 150px;
+            border-radius: 100px 0;
+            position: absolute;
+            background: #998235;
+        }
+        .leafy1 {
+            background: #1A4341;
+            left: 75px;
+            z-index: 1;
+        }
+        .leafy2 { z-index: 2; }
+        .leafy3 {
+            background: #F3AC3C;
+            right: 75px;
+            z-index: 3;
+        }
+    </style>
+</head>
+
+<body>
+    <header id="header">
+        <h1>Leafy Trail</h1>
+    </header>
+    <main id="body">
+        <div class="leafy1"></div>
+        <div class="leafy2"></div>
+        <div class="leafy3"></div>
+    </main>
+</body>
+
+</html>
