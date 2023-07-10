@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wiggly Moustache</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgba(0, 0, 0, 0.9);
+            width: 100vw;
+            height: 100vh;
+        }
+
+        #header {
+            text-align: center;
+            color: white;
+            margin: 50px auto;
+        }
+
+        #body {
+            background: #F5D6B4;
+            width: 400px;
+            height: 300px;
+            margin: auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .circle{
+            width: 100px;
+            height: 50px;
+            border-radius: 0 0 100px 100px;
+            border: 20px solid #D86F45;
+            border-top: 0;
+            position: relative;
+            top: 24.5px;
+        }
+        .circle:nth-child(3), .tip{
+            transform: scaleY(-1);
+            top: -24.5px;
+            margin: 0 -20px;
+        }
+        .tip{
+            width: 20px;
+            height: 20px;
+            background: #D86F45;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+
+<body>
+    <header id="header">
+        <h1>Wiggly Moustache</h1>
+    </header>
+    <main id="body">
+        <div class="tip"> </div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="tip"> </div>
+    </main>
+</body>
+
+</html>
