@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eye of Sauron</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgba(0, 0, 0, 0.9);
+            width: 100vw;
+            height: 100vh;
+        }
+
+        #header {
+            text-align: center;
+            color: white;
+            text-decoration: underline;
+            margin: 50px auto;
+        }
+
+        #body {
+            background: #191210;
+            width: 400px;
+            height: 300px;
+            margin: auto;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .circle-center {
+            width: 100px;
+            height: 100px;
+            background: #84271C;
+            border-radius: 50%;
+            border: 25px solid #191210;
+            box-shadow: 0 0 0 20px #ECA03D;
+        }
+        .half-circle {
+            width: 100px;
+            height: 50px;
+            background: #191210;
+            border: 20px solid #ECA03D;
+            border-top: 0;
+            border-radius: 0 0 100px 100px;
+            position: relative;
+            top: 25px;
+        }
+        
+        div:nth-child(3){
+            transform: scaleY(-1);
+            top: -25px;
+        }
+    </style>
+</head>
+
+<body>
+    <header id="header">
+        <h1>Eye of Sauron</h1>
+    </header>
+    <main id="body">
+        <div class="half-circle"></div>
+        <div class="circle-center"></div>
+        <div class="half-circle"></div>
+    </main>
+</body>
+
+</html>
