@@ -10,3 +10,4 @@
 #### [07 Leaf Trail](https://josimarmg.github.io/css-battle/01-pilot-battle/07-leafy-trail.html)
 #### [08 Forking Crazy](https://josimarmg.github.io/css-battle/01-pilot-battle/08-forking-crazy.html)
 #### [09 Tesseract](https://josimarmg.github.io/css-battle/01-pilot-battle/09-tesseract.html)
+#### [10 Cloaked Spirits](https://josimarmg.github.io/css-battle/01-pilot-battle/10-cloaked-spirits.html)
