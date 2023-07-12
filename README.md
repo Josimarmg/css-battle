@@ -1,6 +1,5 @@
 # css-battle
- Práticas de CSS
-
+ [Práticas de CSS](https://josimarmg.github.io/css-battle/)
 
 ||||||
 |--|--|--|--|--|
