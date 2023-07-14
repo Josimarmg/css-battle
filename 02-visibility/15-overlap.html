@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Overlap</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgba(0, 0, 0, 0.9);
+            width: 100vw;
+            height: 100vh;
+        }
+
+        #header {
+            text-align: center;
+            color: white;
+            margin: 50px auto;
+        }
+
+        #body {
+            background: #09042A;
+            width: 400px;
+            height: 300px;
+            margin: auto;
+            display: flex;
+            align-items: center;
+            position: relative;
+        }
+
+        div {
+            width: 150px;
+            height: 150px;
+            background-color: #7B3F61;
+            border-radius: 50%;
+            position: absolute;
+            left: 75px;
+        }
+
+        div:nth-child(2) {
+            background: #09042A;
+            box-shadow: inset 100px 0 0 0 #E78481;
+            transform: scaleX(-1);
+            left: 175px;
+        }
+    </style>
+</head>
+
+<body>
+    <header id="header">
+        <h1>Overlap</h1>
+    </header>
+    <main id="body">
+        <div></div>
+        <div></div>
+    </main>
+</body>
+
+</html>
