@@ -1,5 +1,5 @@
 # css-battle
- [Práticas de CSS](https://josimarmg.github.io/css-battle/)
+ [<sup>*</sup>ABRIR PÁGINA -> Home](https://josimarmg.github.io/css-battle/)
 
 ||||||
 |--|--|--|--|--|
