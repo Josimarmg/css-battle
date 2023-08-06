@@ -1,8 +1,9 @@
 
 # css-battle
+
  [HOME](https://josimarmg.github.io/css-battle/)
 
-|PILOT BETTLE||||
+|PILOT BATTLE||||
 |--|--|--|--|
 |**01.** [Simply Square](https://josimarmg.github.io/css-battle/01-pilot-battle/01-simply-square.html) |**02.** [Carrom](https://josimarmg.github.io/css-battle/01-pilot-battle/02-carrom.html) |**03.** [Push Button](https://josimarmg.github.io/css-battle/01-pilot-battle/03-push-button.html) |**04.** [Ups n Downs](https://josimarmg.github.io/css-battle/01-pilot-battle/04-ups-n-downs.html) |
 **05.** [Acid Rain](https://josimarmg.github.io/css-battle/01-pilot-battle/05-acid-rain.html)|**06.** [Missing Slice](https://josimarmg.github.io/css-battle/01-pilot-battle/06-missing-slice.html) |**07.** [Leaf Trail](https://josimarmg.github.io/css-battle/01-pilot-battle/07-leafy-trail.html) |**08.** [Forking Crazy](https://josimarmg.github.io/css-battle/01-pilot-battle/08-forking-crazy.html) |
