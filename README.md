@@ -1,6 +1,3 @@
-<style>
-    body{font-size: 1.125em;}
-</style>
 
 # css-battle
   [:house:](https://josimarmg.github.io/css-battle/)
