@@ -25,3 +25,8 @@
 |--|--|--|--|
 **21.** [Site Point Logo](https://josimarmg.github.io/css-battle/04-display/21-sitepointlogo.html) | **22.** [Cloud](https://josimarmg.github.io/css-battle/04-display/22-cloud.html) | **23.** [Boxception](https://josimarmg.github.io/css-battle/04-display/23-boxception.html) |**24.** [Switches](https://josimarmg.github.io/css-battle/04-display/24-switches.html) |
 **25.** [Blossom](https://josimarmg.github.io/css-battle/04-display/25-blossom.html) |**26.** [Smiley](https://josimarmg.github.io/css-battle/04-display/26-smiley.html) | **27.** [Lock Up](https://josimarmg.github.io/css-battle/04-display/27-lock-up.html) |**28.** [Lock Up](https://josimarmg.github.io/css-battle/04-display/28-cups-balls.html) |
+|||
+
+|INLINE| | | |
+|--|--|--|--|
+**29.** [Lock Up](https://josimarmg.github.io/css-battle/04-display/29-suffocate.html) |
