@@ -29,4 +29,4 @@
 
 |INLINE| | | |
 |--|--|--|--|
-**29.** [Suffocate](https://josimarmg.github.io/css-battle/04-display/29-suffocate.html) |
+**29.** [Suffocate](https://josimarmg.github.io/css-battle/05-inline/29-suffocate.html) | **30.** [Horizon](https://josimarmg.github.io/css-battle/05-inline/30-horizon.html) |
