@@ -30,3 +30,8 @@
 |INLINE| | | |
 |--|--|--|--|
 **29.** [Suffocate](https://josimarmg.github.io/css-battle/05-inline/29-suffocate.html) | **30.** [Horizon](https://josimarmg.github.io/css-battle/05-inline/30-horizon.html) |
+|||
+
+|CONIC| | | |
+|--|--|--|--|
+**31.** [Equals](https://josimarmg.github.io/css-battle/06-conic/31-equals.html) |
