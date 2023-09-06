@@ -29,4 +29,4 @@
 
 |INLINE| | | |
 |--|--|--|--|
-**29.** [Lock Up](https://josimarmg.github.io/css-battle/04-display/29-suffocate.html) |
+**29.** [Suffocate](https://josimarmg.github.io/css-battle/04-display/29-suffocate.html) |
