@@ -35,3 +35,8 @@
 |CONIC| | | |
 |--|--|--|--|
 **31.** [Equals](https://josimarmg.github.io/css-battle/06-conic/31-equals.html) | **32.** [Band-aid](https://josimarmg.github.io/css-battle/06-conic/32-band-aid.html) |
+|||
+
+|BACKFACE| | | |
+|--|--|--|--|
+**33.** [Birdie](https://josimarmg.github.io/css-battle/07-backface/33-backface.html) |
