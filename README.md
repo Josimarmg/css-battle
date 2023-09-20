@@ -34,4 +34,4 @@
 
 |CONIC| | | |
 |--|--|--|--|
-**31.** [Equals](https://josimarmg.github.io/css-battle/06-conic/31-equals.html) |
+**31.** [Equals](https://josimarmg.github.io/css-battle/06-conic/31-equals.html) | **32.** [Band-aid](https://josimarmg.github.io/css-battle/06-conic/32-band-aid.html) |
