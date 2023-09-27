@@ -39,4 +39,4 @@
 
 |BACKFACE| | | |
 |--|--|--|--|
-**33.** [Birdie](https://josimarmg.github.io/css-battle/07-backface/33-backface.html) | **34.** [Christimas Tree](https://josimarmg.github.io/css-battle/07-backface/34-christimas-tree.html) |
+**33.** [Birdie](https://josimarmg.github.io/css-battle/07-backface/33-backface.html) | **34.** [Christimas Tree](https://josimarmg.github.io/css-battle/07-backface/34-christmas-tree.html) |
