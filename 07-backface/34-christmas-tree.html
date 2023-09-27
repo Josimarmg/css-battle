@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>#34 Christmas Tree</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgba(0, 0, 0, 0.9);
+        }
+
+        #header {
+            text-align: center;
+            color: rgba(255, 255, 255, 0.8);
+            margin: 50px auto;
+        }
+
+        #body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        /* START CODE */
+        #sectionBody {
+            width: 400px;
+            height: 300px;
+            position: relative;
+            /* START -----------------------------------------------*/
+            background: #007065;
+        }
+        div {
+            width: 0;
+            height: 0;
+            border: solid transparent;
+            border-width: 100px 125px;
+            position: absolute;
+            left: 75px;
+        }
+        .tp {
+            border-bottom-color: #FFEECF;
+            top: -50px;
+        }
+        .md {
+            border-bottom-color: #F5C181;
+        }
+        .bt {
+            border-bottom-color: #00A79D;
+            top: 50px;
+        }
+        /* END -----------------------------------------------------*/
+
+        #sectionButtons {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 400px;
+            background-color: rgba(0, 0, 0, .8);
+            padding: 10px;
+        }
+
+        #sectionButtons a {
+            width: 80px;
+            text-decoration: none;
+            text-align: center;
+            font-size: 1.125rem;
+            color: white;
+            padding: 3px;
+        }
+
+        #sectionButtons a:hover {
+            font-weight: bold;
+            color: black;
+            background-color: rgba(255, 255, 255, 0.8);
+        }
+
+        #sectionButtons a:nth-child(1) {
+            border-radius: 5px 0 0 5px;
+        }
+
+        #sectionButtons a:nth-child(3) {
+            border-radius: 0 5px 5px 0;
+        }
+    </style>
+</head>
+
+<body>
+    <header id="header">
+        <h1>Christmas Tree<sup style="font-size: 20px; color: red;"> #34</sup></h1>
+    </header>
+    <main id="body">
+        <section id="sectionBody">
+            <div class="bt"></div>
+            <div class="md"></div>
+            <div class="tp"></div>
+        </section>
+
+        <section id="sectionButtons">
+            <!-- Previous -->
+            <a href="https://josimarmg.github.io/css-battle/07-backface/33-birdie.html">&#x2B05;</a>
+
+            <!-- Home page -->
+            <a href="https://josimarmg.github.io/css-battle/">&#9776;</a>
+
+            <!-- Next -->
+            <a href="https://josimarmg.github.io/css-battle/07-backface/35-ice-cream.html">&#x27A1;</a>
+        </section>
+    </main>
+</body>
+
+</html>
