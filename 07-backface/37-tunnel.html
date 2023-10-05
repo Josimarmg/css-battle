@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>#37 Tunnel</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgba(0, 0, 0, 0.9);
+        }
+
+        #header {
+            text-align: center;
+            color: rgba(255, 255, 255, 0.8);
+            margin: 50px auto;
+        }
+
+        #body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        /* START CODE */
+        #sectionBody {
+            width: 400px;
+            height: 300px;
+            position: relative;
+            /* START -----------------------------------------------*/
+            background: #6592CF;
+            display: flex;
+        }
+
+        div {
+            background: #243D83;
+            width: 250px;
+            height: 250px;
+            margin: auto;
+            display: flex;
+            align-self: center;
+        }
+
+        .squereMd, .squereSm {
+            background: #6592CF;
+            width: 60%;
+            height: 60%;
+            transform: rotate(15deg);
+        }
+
+        .squereSm {
+            background: #243D83;
+            width: 50%;
+            height: 50%;
+        }
+
+        /* END -----------------------------------------------------*/
+
+        #sectionButtons {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 400px;
+            background-color: rgba(0, 0, 0, .8);
+            padding: 10px;
+        }
+
+        #sectionButtons a {
+            width: 80px;
+            text-decoration: none;
+            text-align: center;
+            font-size: 1.125rem;
+            color: white;
+            padding: 3px;
+        }
+
+        #sectionButtons a:hover {
+            font-weight: bold;
+            color: black;
+            background-color: rgba(255, 255, 255, 0.8);
+        }
+
+        #sectionButtons a:nth-child(1) {
+            border-radius: 5px 0 0 5px;
+        }
+
+        #sectionButtons a:nth-child(3) {
+            border-radius: 0 5px 5px 0;
+        }
+    </style>
+</head>
+
+<body>
+    <header id="header">
+        <h1>Tunnel<sup style="font-size: 20px; color: red;"> #37</sup></h1>
+    </header>
+    <main id="body">
+        <section id="sectionBody">
+            <div>
+                <div class="squereMd">
+                    <div class="squereSm"></div>
+                </div>
+            </div>
+        </section>
+
+        <section id="sectionButtons">
+            <!-- Previous -->
+            <a href="https://josimarmg.github.io/css-battle/07-backface/36-interleaved.html">&#x2B05;</a>
+
+            <!-- Home page -->
+            <a href="https://josimarmg.github.io/css-battle/">&#9776;</a>
+
+            <!-- Next -->
+            <a href="https://josimarmg.github.io/css-battle/07-backface/38-not-simply-square.html">&#x27A1;</a>
+        </section>
+    </main>
+</body>
+
+</html>
