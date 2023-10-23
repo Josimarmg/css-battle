@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>#43 Wrench</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgba(0, 0, 0, 0.9);
+        }
+
+        #header {
+            text-align: center;
+            color: rgba(255, 255, 255, 0.8);
+            margin: 50px auto;
+        }
+
+        #body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        /* START CODE */
+        #sectionBody {
+            width: 400px;
+            height: 300px;
+            position: relative;
+            /* -------------------- START ---------------------*/
+            background: #6592CF;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        div {
+            width: 70px;
+            height: 242px;
+            border: 30px solid #243D83;
+            border-left: 0;
+            border-radius: 0 70px 70px 0;
+            translate: 15px 1px;
+        }
+
+        .rev {
+            transform: scale(-1);
+            translate: -15px 1px;
+        }
+
+        /* -------------------- END ----------------------*/
+
+        #sectionButtons {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 400px;
+            background-color: rgba(0, 0, 0, .8);
+            padding: 10px;
+        }
+
+        #sectionButtons a {
+            width: 80px;
+            text-decoration: none;
+            text-align: center;
+            font-size: 1.125rem;
+            color: white;
+            padding: 3px;
+        }
+
+        #sectionButtons a:hover {
+            font-weight: bold;
+            color: black;
+            background-color: rgba(255, 255, 255, 0.8);
+        }
+
+        #sectionButtons a:nth-child(1) {
+            border-radius: 5px 0 0 5px;
+        }
+
+        #sectionButtons a:nth-child(3) {
+            border-radius: 0 5px 5px 0;
+        }
+    </style>
+</head>
+
+<body>
+    <header id="header">
+        <h1>Wrench<sup style="font-size: 20px; color: red;"> #43</sup></h1>
+    </header>
+    <main id="body">
+        <section id="sectionBody">
+            <div></div>
+            <div class="rev"></div>
+        </section>
+
+        <section id="sectionButtons">
+            <!-- Previous -->
+            <a href="https://josimarmg.github.io/css-battle/08-transition/42-baby.html">&#x2B05;</a>
+
+            <!-- Home page -->
+            <a href="https://josimarmg.github.io/css-battle/">&#9776;</a>
+
+            <!-- Next -->
+            <a href="https://josimarmg.github.io/css-battle/08-transition/44-stripes.html">&#x27A1;</a>
+        </section>
+    </main>
+</body>
+
+</html>
