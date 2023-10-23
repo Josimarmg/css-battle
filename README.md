@@ -46,3 +46,4 @@
 
 |TRANSITION| | | |
 |--|--|--|--|
+**42.** [Baby](https://josimarmg.github.io/css-battle/08-transition/42-baby.html)|
