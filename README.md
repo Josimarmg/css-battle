@@ -41,6 +41,7 @@
 |--|--|--|--|
 **33.** [Birdie](https://josimarmg.github.io/css-battle/07-backface/33-birdie.html) | **34.** [Christimas Tree](https://josimarmg.github.io/css-battle/07-backface/34-christmas-tree.html) | **35.** [Ice Cream](https://josimarmg.github.io/css-battle/07-backface/35-ice-cream.html)| **36.** [Interleaved](https://josimarmg.github.io/css-battle/07-backface/36-interleaved.html)|
 **37.** [Tunnel](https://josimarmg.github.io/css-battle/07-backface/37-tunnel.html)| **38.** [Not Simply Square](https://josimarmg.github.io/css-battle/07-backface/38-not-simply-square.html)| **39.** [Sunset](https://josimarmg.github.io/css-battle/07-backface/39-sunset.html)| **40.** [Letter B](https://josimarmg.github.io/css-battle/07-backface/40-letter-b.html)|
+**41.** [Fox Head](https://josimarmg.github.io/css-battle/07-backface/41-fox-head.html)|
 |||
 
 |TRANSITION| | | |
