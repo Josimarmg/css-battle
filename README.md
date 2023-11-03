@@ -47,3 +47,8 @@
 |TRANSITION| | | |
 |--|--|--|--|
 **42.** [Baby](https://josimarmg.github.io/css-battle/08-transition/42-baby.html)| **43.** [Wrench](https://josimarmg.github.io/css-battle/08-transition/43-wrench.html)| **44.** [Stripes](https://josimarmg.github.io/css-battle/08-transition/44-stripes.html)|
+|||
+
+|MARGIN| | | |
+|--|--|--|--|
+**45.** [Magical Tree](https://josimarmg.github.io/css-battle/09-margin/45-magical-tree.html)|
