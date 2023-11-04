@@ -56,4 +56,4 @@
 
 |BLOCK| | | |
 |--|--|--|--|
-**48.** [Wash Your Hands](https://josimarmg.github.io/css-battle/10-block/48-wash-your-hands.html)|
+**47.** [Corona Virus](https://josimarmg.github.io/css-battle/10-block/47-corona-virus.html)| **48.** [Wash Your Hands](https://josimarmg.github.io/css-battle/10-block/48-wash-your-hands.html)|
