@@ -51,4 +51,9 @@
 
 |MARGIN| | | |
 |--|--|--|--|
-**45.** [Magical Tree](https://josimarmg.github.io/css-battle/09-margin/45-magical-tree.html)|**46.** [Mountains](https://josimarmg.github.io/css-battle/09-margin/45-mountains.html)|
+**45.** [Magical Tree](https://josimarmg.github.io/css-battle/09-margin/45-magical-tree.html)|**46.** [Mountains](https://josimarmg.github.io/css-battle/09-margin/46-mountains.html)|
+|||
+
+|BLOCK| | | |
+|--|--|--|--|
+**47.** [Corona Virus](https://josimarmg.github.io/css-battle/10-block/47-corona-virus.html)|
