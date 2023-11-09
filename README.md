@@ -57,3 +57,4 @@
 |BLOCK| | | |
 |--|--|--|--|
 **47.** [Corona Virus](https://josimarmg.github.io/css-battle/10-block/47-corona-virus.html)| **48.** [Wash Your Hands](https://josimarmg.github.io/css-battle/10-block/48-wash-your-hands.html)| **49.** [Stay at Home](https://josimarmg.github.io/css-battle/10-block/49-stay-at-home.html)|
+**50.** [Use Hand Sanitizer](https://josimarmg.github.io/css-battle/10-block/50-use-hand-sanitizer.html)|
