@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>#52 Break the Chain</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgba(0, 0, 0, 0.9);
+        }
+
+        #header {
+            text-align: center;
+            color: rgba(255, 255, 255, 0.8);
+            margin: 50px auto;
+        }
+
+        #body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        /* START CODE */
+        #sectionBody {
+            overflow: hidden;
+            width: 400px;
+            height: 300px;
+            position: relative;
+            /* -------------------- START ---------------------*/
+            background: #6592CF;
+            /* margin: 0; */
+        }
+
+        .rect, .rect::after{
+            width: 10px;
+            height: 50px;
+            background: #243D83;
+            translate: 45px 80px;
+            box-shadow: 45px 0 #243D83, 90px 0 #243D83, 165px 0 #243D83, 210px 0 #243D83, 255px 0 #243D83, 300px 0 #243D83;
+        }
+        .rect::after{
+            content:'';
+            display: block;
+            translate: -5px -10px;
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+        }
+
+        .circle, .circle::after {
+            width: 60px;
+            height: 60px;
+            background: #EEB850;
+            border-radius: 50%;
+            translate: 65px 100px;
+        }
+        .circle::after {
+            content: '';
+            display: block;
+            width: 40px;
+            height: 40px;
+            translate: -35px 20px;
+            box-shadow: 90px 0 #EEB850;
+        }
+        
+        /* -------------------- END ----------------------*/
+
+        #sectionButtons {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 400px;
+            background-color: rgba(0, 0, 0, .8);
+            padding: 10px;
+        }
+
+        #sectionButtons a {
+            width: 80px;
+            text-decoration: none;
+            text-align: center;
+            font-size: 1.125rem;
+            color: white;
+            padding: 3px;
+        }
+
+        #sectionButtons a:hover {
+            font-weight: bold;
+            color: black;
+            background-color: rgba(255, 255, 255, 0.8);
+        }
+
+        #sectionButtons a:nth-child(1) {
+            border-radius: 5px 0 0 5px;
+        }
+
+        #sectionButtons a:nth-child(3) {
+            border-radius: 0 5px 5px 0;
+        }
+    </style>
+</head>
+
+<body>
+    <header id="header">
+        <h1 style="font-size: 1.75rem; color: red;"> #52</h1>
+        <h3 style="font-size: 1.25rem;">Break the Chain</h3>
+    </header>
+    <main id="body">
+        <section id="sectionBody">
+            <div class="circle"></div>
+            <div class="rect"></div>
+        </section>
+
+        <section id="sectionButtons">
+            <!-- Previous -->
+            <a href="https://josimarmg.github.io/css-battle/10-block/51-wear-a-mask.html">&#x2B05;</a>
+
+            <!-- Home page -->
+            <a href="https://josimarmg.github.io/css-battle/">&#9776;</a>
+
+            <!-- Next -->
+            <a href="https://josimarmg.github.io/css-battle/11-overflow/53-pastel-logo.html">&#x27A1;</a>
+        </section>
+    </main>
+</body>
+
+</html>
