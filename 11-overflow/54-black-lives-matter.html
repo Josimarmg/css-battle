@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>#54 Black Lives Matter</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgba(0, 0, 0);
+        }
+
+        #header {
+            text-align: center;
+            color: rgba(255, 255, 255, 0.8);
+            margin: 50px auto;
+        }
+
+        #body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        } 
+        
+        #sectionButtons > * {
+            box-sizing: border-box;
+        }
+        
+        #sectionButtons {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 400px;
+            background-color: rgba(0, 0, 0, .8);
+            padding: 10px;
+        }
+
+        #sectionButtons a {
+            width: 80px;
+            text-decoration: none;
+            text-align: center;
+            font-size: 1.125rem;
+            color: white;
+            padding: 3px;
+        }
+
+        #sectionButtons a:hover {
+            font-weight: bold;
+            color: black;
+            background-color: rgba(255, 255, 255, 0.8);
+        }
+
+        #sectionButtons a:nth-child(1) {
+            border-radius: 5px 0 0 5px;
+        }
+
+        #sectionButtons a:nth-child(3) {
+            border-radius: 0 5px 5px 0;
+        }
+
+        #sectionBody {
+            overflow: hidden;
+            width: 400px;
+            height: 300px;
+            position: relative;
+
+        /*===== START CODE CSS BATTLE =====*/
+
+            background: #F9E492;
+            display: grid;
+            align-content: center;
+            justify-items: center;
+        }
+
+        div {
+            background: #191919;
+            border-radius: 0 0 10px 10px;
+        }
+
+        #palm {
+            width: 100px;
+            height: 100px;
+            background: linear-gradient(#F9E492 60px, #191919 1px);
+            display: flex;
+        }
+
+        .rect {
+            width: 20px;
+            height: 45px;
+            border-radius: 50px;
+            margin-left: 5px;
+        }
+        .f1, .f3 { margin-top: 10px; }
+
+        .f2 { height: 90%; }
+
+        .f4 {
+            height: 35px;
+            margin-top: 20px;
+        }
+
+        .f5 {
+            height: 65px;
+            border: 5px solid #F9E492;
+            position: absolute;
+            transform: rotate(60deg) translate(22px, 16px)
+        }
+
+        #arm {
+            width: 50px;
+            height: 45px;
+        }
+    </style>
+</head>
+
+<body>
+    <header id="header">
+        <h1 style="font-size: 1.75rem; color: red;"> #54</h1>
+        <h3 style="font-size: 1.25rem;">Black Lives Matter</h3>
+    </header>
+    <main id="body">
+        <section id="sectionBody">
+            <div id="palm">
+                <div class="rect f1"></div>
+                <div class="rect f2"></div>
+                <div class="rect f3"></div>
+                <div class="rect f4"></div>
+                <div class="rect f5"></div>
+            </div>
+            <div id="arm"></div>
+        </section>
+
+        <section id="sectionButtons">
+            <!-- Previous -->
+            <a href="https://josimarmg.github.io/css-battle/11-overflow/53-pastel-logo.html">&#x2B05;</a>
+
+            <!-- Home page -->
+            <a href="https://josimarmg.github.io/css-battle/">&#9776;</a>
+
+            <!-- Next -->
+            <a href="https://josimarmg.github.io/css-battle/11-overflow/55-windmill.html">&#x27A1;</a>
+        </section>
+    </main>
+</body>
+
+</html>
