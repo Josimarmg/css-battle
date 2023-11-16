@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>#57 Pillars</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgba(0, 0, 0);
+        }
+
+        #header {
+            text-align: center;
+            color: rgba(255, 255, 255, 0.8);
+            margin: 50px auto;
+        }
+
+        #body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        } 
+        
+        #sectionButtons > * {
+            box-sizing: border-box;
+        }
+        
+        #sectionButtons {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 400px;
+            background-color: rgba(0, 0, 0, .8);
+            padding: 10px;
+        }
+
+        #sectionButtons a {
+            width: 80px;
+            text-decoration: none;
+            text-align: center;
+            font-size: 1.125rem;
+            color: white;
+            padding: 3px;
+        }
+
+        #sectionButtons a:hover {
+            font-weight: bold;
+            color: black;
+            background-color: rgba(255, 255, 255, 0.8);
+        }
+
+        #sectionButtons a:nth-child(1) {
+            border-radius: 5px 0 0 5px;
+        }
+
+        #sectionButtons a:nth-child(3) {
+            border-radius: 0 5px 5px 0;
+        }
+
+        #sectionBody {
+            overflow: hidden;
+            width: 400px;
+            height: 300px;
+            position: relative;
+
+        /*===== START CODE CSS BATTLE =====*/
+
+            background: #191919;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        div { background: #4F77FF; }
+
+        #wrapper {
+            width: 100px;
+            height: 100px;
+            position: relative;
+        }
+
+        .wrap {
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            background: #191919;
+            position: absolute;
+        }
+        .TL, .TR, .DL {    
+            top: -30px;
+            left: -20px;
+        }
+        .TR, .DR {
+            left: 60px;
+            rotate: 90deg;
+        }
+        .DL, .DR {
+            top: 70px;
+            rotate: -90deg;
+        }
+        .DR {
+            rotate: 180deg;
+        }
+
+        .circle {
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            box-shadow: 8px 8px 0 7px #F9E492;
+        }
+    </style>
+</head>
+
+<body>
+    <header id="header">
+        <h1 style="font-size: 1.75rem; color: red;"> #57</h1>
+        <h3 style="font-size: 1.25rem;">Pillars</h3>
+    </header>
+    <main id="body">
+        <section id="sectionBody">
+            <div id="wrapper">
+                <div class="wrap TL">
+                    <div class="circle"></div>
+                </div>
+                <div class="wrap TR">
+                    <div class="circle"></div>
+                </div>
+                <div class="wrap DL">
+                    <div class="circle"></div>
+                </div>
+                <div class="wrap DR">
+                    <div class="circle"></div>
+                </div>
+            </div>
+        </section>
+
+        <section id="sectionButtons">
+            <!-- Previous -->
+            <a href="https://josimarmg.github.io/css-battle/11-overflow/56-skull.html">&#x2B05;</a>
+
+            <!-- Home page -->
+            <a href="https://josimarmg.github.io/css-battle/">&#9776;</a>
+
+            <!-- Next -->
+            <a href="https://josimarmg.github.io/css-battle/11-overflow/58-rose.html">&#x27A1;</a>
+        </section>
+    </main>
+</body>
+
+</html>
