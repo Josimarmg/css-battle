@@ -65,3 +65,7 @@
 **53.** [Pastel Logo](https://josimarmg.github.io/css-battle/11-overflow/53-pastel-logo.html)| **54.** [Black Lives Matter](https://josimarmg.github.io/css-battle/11-overflow/54-black-lives-matter.html)| **55.** [windmill](https://josimarmg.github.io/css-battle/11-overflow/55-windmill.html)| **56.** [Skull](https://josimarmg.github.io/css-battle/11-overflow/56-skull.html)|
 **57.** [Pillars](https://josimarmg.github.io/css-battle/11-overflow/57-pillars.html)| **58.** [Rose](https://josimarmg.github.io/css-battle/11-overflow/58-rose.html)| **59.** [Earth](https://josimarmg.github.io/css-battle/11-overflow/59-earth.html)| **60.** [Evil Triangles](https://josimarmg.github.io/css-battle/11-overflow/60-evil-triangles.html)|
 |||
+
+|BLEND| | | |
+|--|--|--|--|
+**61.** [ImprovMX](https://josimarmg.github.io/css-battle/12-blend/61-improvmx.html)|
