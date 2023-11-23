@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>#61 ImprovMX</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgba(0, 0, 0);
+        }
+
+        #header {
+            text-align: center;
+            color: rgba(255, 255, 255, 0.8);
+            margin: 50px auto;
+        }
+
+        #body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        } 
+        
+        #sectionButtons > * {
+            box-sizing: border-box;
+        }
+        
+        #sectionButtons {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 400px;
+            background-color: rgba(0, 0, 0, .8);
+            padding: 10px;
+        }
+
+        #sectionButtons a {
+            width: 80px;
+            text-decoration: none;
+            text-align: center;
+            font-size: 1.125rem;
+            color: white;
+            padding: 3px;
+        }
+
+        #sectionButtons a:hover {
+            font-weight: bold;
+            color: black;
+            background-color: rgba(255, 255, 255, 0.8);
+        }
+
+        #sectionButtons a:nth-child(1) {
+            border-radius: 5px 0 0 5px;
+        }
+
+        #sectionButtons a:nth-child(3) {
+            border-radius: 0 5px 5px 0;
+        }
+
+        #sectionBody {
+            overflow: hidden;
+            width: 400px;
+            height: 300px;
+            position: relative;
+
+        /*===== START CODE CSS BATTLE =====*/
+
+            background: #191919;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+        }
+
+        #hidden {
+            display: grid;
+            grid-template-columns: 160px;
+            grid-template-rows: 40px 60px 34px;
+            place-content: center;
+            place-items: center;
+            overflow: hidden;
+        }
+
+        .square {
+            width: 80px;
+            height: 50px;
+            border: 10px solid #5DBCF9;
+            border-bottom: 0;
+        }
+        .top {
+            width: 30px;
+            height: 20px;
+            translate: 0 1px;
+        }
+        .mid {
+            translate: 0px -5px;
+        }
+
+        #bottom {
+            display: flex;
+        }
+        .b {
+            border-right: 0;
+            rotate: -30deg;
+            translate: 26px -3px;
+        }
+        .r {
+            scale: -1 1;
+            rotate: 30deg;
+            translate: -26px -3px;
+        }
+        .center {
+            width: 10px;
+            height: 60px;
+            background: #5DBCF9;
+            translate: 0 -10px;
+        }
+        
+        .water {
+            width: 200px;
+            height: 10px;
+            background: #5DBCF9;
+        }
+        .wb {
+            width: 110px;
+        }
+    </style>
+</head>
+
+<body>
+    <header id="header">
+        <h1 style="font-size: 1.75rem; color: red;"> #61</h1>
+        <h3 style="font-size: 1.25rem;">ImprovMX</h3>
+    </header>
+    <main id="body">
+        <section id="sectionBody">
+            <div id="hidden">
+                <div class="square top"></div>
+                <div class="square mid"></div>
+                <div id="bottom">
+                    <div class="square b"></div>
+                    <div class="center"></div>
+                    <div class="square b r"></div>
+                </div>
+            </div>
+            <div class="water"></div>
+            <div class="water wb"></div>
+        </section>
+
+        <section id="sectionButtons">
+            <!-- Previous -->
+            <a href="https://josimarmg.github.io/css-battle/11-overflow/60-evil-triangles.html">&#x2B05;</a>
+
+            <!-- Home page -->
+            <a href="https://josimarmg.github.io/css-battle/">&#9776;</a>
+
+            <!-- Next -->
+            <a href="https://josimarmg.github.io/css-battle/12-blend/62-sunset.html">&#x27A1;</a>
+        </section>
+    </main>
+</body>
+
+</html>
