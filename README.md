@@ -68,4 +68,4 @@
 
 |BLEND| | | |
 |--|--|--|--|
-**61.** [ImprovMX](https://josimarmg.github.io/css-battle/12-blend/61-improvmx.html)|
+**61.** [ImprovMX](https://josimarmg.github.io/css-battle/12-blend/61-improvmx.html)| **62.** [Sunset](https://josimarmg.github.io/css-battle/12-blend/62-sunset.html)|
