@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>#66 Batmicky</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgba(0, 0, 0);
+        }
+
+        #header {
+            text-align: center;
+            color: rgba(255, 255, 255, 0.8);
+            margin: 50px auto;
+        }
+
+        #body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        } 
+        
+        #sectionButtons > * {
+            box-sizing: border-box;
+        }
+        
+        #sectionButtons {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 400px;
+            background-color: rgba(0, 0, 0, .8);
+            padding: 10px;
+        }
+
+        #sectionButtons a {
+            width: 80px;
+            text-decoration: none;
+            text-align: center;
+            font-size: 1.125rem;
+            color: white;
+            padding: 3px;
+        }
+
+        #sectionButtons a:hover {
+            font-weight: bold;
+            color: black;
+            background-color: rgba(255, 255, 255, 0.8);
+        }
+
+        #sectionButtons a:nth-child(1) {
+            border-radius: 5px 0 0 5px;
+        }
+
+        #sectionButtons a:nth-child(3) {
+            border-radius: 0 5px 5px 0;
+        }
+        /*========== START ==========*/
+        #sectionBody {
+            overflow: hidden;
+            width: 400px;
+            height: 300px;
+            position: relative;
+
+        /*===== START CODE CSS BATTLE =====*/
+
+            background: #191919;
+            display: grid;
+            place-items: center;
+        }
+
+        div {
+            background: #F2AD43;
+            position: absolute;
+        }
+
+        #wings {
+            width: 250px;
+            height: 100px;
+        }
+
+        #head {
+            width: 80px;
+            height: 40px;
+            background: #191919;
+            translate: 85px -10px;
+            border-radius: 10px;
+        }
+
+        #face {
+            width: 20px;
+            height: 20px;
+            translate: 30px 20px;
+        }
+        
+        #ears {
+            width: 10px;
+            height: 10px;
+            translate: -5px -5px;
+            box-shadow: 20px 0 #F2AD43;
+        }
+
+        #ears, #circle {
+            border-radius: 50%;
+        }
+
+        #circle {
+            width: 100px;
+            height: 100px;
+            background: #191919;
+            translate: -125px;
+            box-shadow: 250px 0 #191919, 185px 111px 0 51px #191919, 65px 111px 0 51px #191919;
+        }
+    </style>
+</head>
+
+<body>
+    <header id="header">
+        <h1 style="font-size: 1.75rem; color: red;"> #66</h1>
+        <h3 style="font-size: 1.25rem;">Batmicky</h3>
+    </header>
+    <main id="body">
+        <section id="sectionBody">
+            <div id="wings">
+                <div id="head">               
+                    <div id="face">
+                        <div id="ears"></div>
+                    </div>
+                </div>
+            </div>
+            <div id="circle"></div>
+        </section>
+
+        <section id="sectionButtons">
+            <!-- Previous -->
+            <a href="https://josimarmg.github.io/css-battle/12-blend/65-max-volume.html">&#x2B05;</a>
+
+            <!-- Home page -->
+            <a href="https://josimarmg.github.io/css-battle/">&#9776;</a>
+
+            <!-- Next -->
+            <a href="https://josimarmg.github.io/css-battle/12-blend/67-videoreel.html">&#x27A1;</a>
+        </section>
+    </main>
+</body>
+
+</html>
